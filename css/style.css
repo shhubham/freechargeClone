@@ -33,18 +33,25 @@ body{
     padding: 0;
 }
 
-.left{
-    width: 15%;
-    float: left;
-}
-
 .center{
     background-color: #fff;
-    width: 65%;
+}
+
+
+.dc1 img{
+    max-width: 100%;
+    float: right;
+}
+
+.dc1 p{
+    max-width: 40%;
+}
+
+.dc1 h6,form{
+    max-width: 30%;
     float: left;
 }
 
-.right{
-    width: 20%;
-    float: left;
+.dc2{
+    width: 100%;
 }
