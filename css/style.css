@@ -1,0 +1,50 @@
+body{
+    background-color: #f0f4f5;
+}
+.headar{
+    background-color: #fff;
+}
+.header-button{
+    background-color: #e3714d;
+    float: right;
+    color: white;
+    margin-top: 10px;
+    margin-right: 5px;
+    font-size: 10px;
+}
+
+#headOne{
+    width: 50%;
+    float: left;
+}
+#headOne img{
+    margin: 20px;
+    width: 110px;
+}
+
+#headTwo{
+    width: 50%;
+    float: left;
+}
+
+.main{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.left{
+    width: 15%;
+    float: left;
+}
+
+.center{
+    background-color: #fff;
+    width: 65%;
+    float: left;
+}
+
+.right{
+    width: 20%;
+    float: left;
+}
