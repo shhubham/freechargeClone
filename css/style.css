@@ -88,6 +88,10 @@ body{
     margin-top: 55px;
 }
 
+#dc1-content form p{
+    margin-top: 10px;
+}
+
 #dc2{
     width: 100%;
 }
@@ -132,6 +136,11 @@ hr{
     width: 100%;
 }
 
+#dc3-content{
+    width: 100%;
+    height: 80px;
+}
+
 #dc3-head{
     width: 70%;
     float: left;
@@ -155,6 +164,38 @@ hr{
     margin-right: 10px;
 }
 
-#dc3-images{
+#dc3-images img{
     width: 75px;
+    margin: 20px;
+}
+
+.right{
+    width: 100%;
+}
+
+#right-head{
+    width: 70%;
+    float: left;
+}
+
+#right-head h6{
+    color: #5c5c5c;
+    font-size: 14px;
+    line-height: 1.8;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+#right-button{
+    width: 30%;
+    float: right;
+}
+
+#right-button button{
+    float: right;
+    font-size: 12px;
+    color: #e3714d;
+    border: 1px solid #e3714d;
+    background: transparent;
+    margin-right: 7px;
 }
