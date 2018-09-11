@@ -1,8 +1,13 @@
+/* main body */
 body{
     background-color: #f0f4f5;
 }
+
+/* header section */
 .headar{
-    background-color: #fff;
+    color: #fff;
+    height: 65px;
+    box-shadow: 0px 2px 3px #f0f4f5;
 }
 .header-button{
     background-color: #e3714d;
@@ -11,8 +16,8 @@ body{
     margin-top: 10px;
     margin-right: 5px;
     font-size: 10px;
+    margin-top: 15px;
 }
-
 #headOne{
     width: 50%;
     float: left;
@@ -27,12 +32,14 @@ body{
     float: left;
 }
 
+/*  main body  of website */
 .main{
     width: 100%;
     margin: 0;
     padding: 0;
 }
 
+/*  center wrap  */
 .center{
     background-color: #fff;
 }
@@ -169,8 +176,11 @@ hr{
     margin: 20px;
 }
 
+
+/*  right wrap  */
 .right{
     width: 100%;
+    margin-top: 30px;
 }
 
 #right-head{
@@ -200,6 +210,8 @@ hr{
     margin-right: 7px;
 }
 
+
+/*   left wrap   */
 .left ul{
     list-style: none;
     display: inline-block;
@@ -218,4 +230,49 @@ hr{
     font-size: 12px;
     margin: 23px;
     margin-left: 5px;
+}
+
+
+/*   lower wrapper   */
+#lastWrapper{
+    width: 100%;
+    background-color: #fff;
+    height: 550px;
+}
+
+.wrapBlocks{
+    width: 13%;
+    float: left;
+    margin-right: -35px;
+}
+
+.wrapBlocks ul{
+    list-style: none;
+    padding: 30px;
+}
+
+.wrapBlocks ul li{
+    font-size: 11px;
+    text-transform: capitalize;
+    line-height: 1.7;
+    color: #7a7a79;
+}
+
+.list-head{
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #000000;
+}
+
+#facebook{
+    margin-left: 7px;
+    width: 40px;
+    height: 40px;
+}
+
+#google{
+    width: 40px;
+    height: 40px;
+    background-color: #e24545;
 }
