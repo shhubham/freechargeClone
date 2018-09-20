@@ -1,3 +1,4 @@
+
 /* main body */
 body{
     background-color: #f0f4f5;
@@ -85,14 +86,37 @@ body{
     width: 100%;
 }
 
+.input-text{
+    border: 0px solid #fff;
+    height:47px;
+    width: 67%;
+    margin-right: -30px;
+    color: #7a7a79;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
 #dc1-content input[type=text]{
-    width: 90%;
-    height: 40px;
+    width: 75%;
+    height: 50px;
     color: #7a7a79;
     letter-spacing: 1px;
+    padding: 3px;
+    padding-left: 32px;
+    border: 0px solid #fff;
+    height: 28px;
+    background: transparent;
+    border: 1px solid #7a7a79;
     border-radius: 2px;
-    border: 1px solid #e8e8e8;
-    margin-top: 55px;
+    margin-top: 50px;
+}
+
+#dc1-content input[type=radio]{
+    border: 2px solid #e3714d;
+    color: #e3714d;
+    background-color: #fff;
+    margin-top: 20px;
+    margin-left: 10px;
 }
 
 #dc1-content form p{
@@ -215,6 +239,20 @@ hr{
 .left ul{
     list-style: none;
     display: inline-block;
+    margin-top: 10px;
+}
+
+.left ul li img{
+    height: 24px;
+    float: left;
+    max-width: 20px;
+    margin-left: -16px;
+}
+
+.left ul li a{
+    margin-left: 10px;
+    text-decoration: none;
+    color: #5c5c5c;
 }
 
 .left hr{
@@ -229,7 +267,20 @@ hr{
     color: #5c5c5c;
     font-size: 12px;
     margin: 23px;
-    margin-left: 5px;
+    margin-left: 0px;
+}
+
+.left li span{
+    width: 6px;
+    height: 10px;
+    float: left;
+    padding-right: 30px;
+    margin-top: 5px;
+    margin-left: -40px;
+}
+
+.left li:hover span{
+    border-left: 2px solid #e3714d;
 }
 
 
@@ -237,7 +288,7 @@ hr{
 #lastWrapper{
     width: 100%;
     background-color: #fff;
-    height: 550px;
+    height: 450px;
 }
 
 .wrapBlocks{
@@ -266,13 +317,167 @@ hr{
 }
 
 #facebook{
-    margin-left: 7px;
+    border:2px solid #607ecb;
+    background: #607ecb;
     width: 40px;
-    height: 40px;
+    height: auto;
+    padding: 7px 13px;
+    border-radius: 50%;
+    height: 38px;
+    margin-bottom: 6px;
+    margin-left: 2px;
 }
 
 #google{
-    width: 40px;
-    height: 40px;
+    
+    height: 38px;
     background-color: #e24545;
+    padding: 9px 7px;
+    width: 40px;
+    border: 2px solid #e24545;
+    border-radius: 50%;
+    margin-bottom: 6px;
+    margin-left: 2px;
+}
+
+#twitter{
+    background-color: #25b1d8;
+    width: 40px;
+    height: 38px;
+    border: 2px solid #25b1d8;
+    border-radius: 50%;
+    padding: 8px;
+    margin-left: 2px;
+}
+
+#wrapper-bottom{
+    width: 100%;
+    float: left;
+}
+
+#download{
+    width: 50%;
+    float: left;
+}
+
+#download-head{
+    width: 50%;
+    float: left;
+    font-size: 10px;
+    font-weight: 700;
+    color: #4a4a4a;
+    text-align: center;
+    margin-left: 100px;
+}
+
+#download-content{
+    width: 50%;
+    float: right;
+    margin-top: -27px;
+}
+
+#download-content img{
+    width: 60px;
+    margin: 10px;
+}
+
+#download-content span{
+    color: #a4a9ac;
+}
+
+#secured{
+    width: 50%;
+    float: right;
+}
+
+#security-head{
+    width: 25%;
+    float: left;
+    font-size: 10px;
+    font-weight: 700;
+    color: #4a4a4a;
+    text-align: left;
+}
+
+#security-content{
+    width: 50%;
+    float: left;
+    margin-top: -19px;
+    margin-left: -110px;
+}
+
+#security-content img{
+    height: 20px;
+    margin: 15px;
+}
+
+#security-content span{
+    color: #a4a9ac;
+}
+
+footer{
+    height: 40px;
+    margin-top: 20px;
+    font-size: 13px;
+    margin-left: 270px;
+    color: #4a4a4a;
+    font-weight: 600;
+    background-color: #f2f2f2;
+}
+
+
+@media only screen and (max-width: 780px){
+    #download-head{
+        margin: 0px;
+        float: left;
+    }
+    #download-content{
+        margin: 0px;
+        float: right;
+    }
+    
+    #secured-head{
+        margin: 0px;
+        float: left;
+    }
+    #secured-content{
+        margin: 0px;
+        float: right;
+    }
+    
+    footer{
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        float: left;
+    }
+    
+    #lastWrapper{
+        height: 940px;
+        width: 100%;
+    }
+    
+    #download-content span{
+        display: none;
+    }
+    
+     #security-content span{
+        display: none;
+    }
+    
+    #security-content{
+        float: right;
+        margin: 0px;
+    }
+    
+    .wrapBlocks{
+        width: 15%;
+        margin: 0px;
+        margin-right: 10px;
+        margin-left: -4px;
+    }
+    
+    .wrapBlocks .image-list li{
+        display: inline;
+    }
 }

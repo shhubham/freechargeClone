@@ -10,7 +10,12 @@
     
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/style.css" type="text/css">
-
+    
+    <!--  inclusion of icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    
+    <!--  web page title -->
     <title>Online Recharge on Freecharge.</title>
     <link rel="shortcut icon" type="image/png" href="images/favicon.ico">
     
@@ -28,20 +33,19 @@
     
     <div class="main row">
         <div class="left col-sm-2">
-            <ul>
-                <li>Mobile</li>
-                <li>DTH</li>
-                <li>DataCard</li>
-                <li>Electricity</li>
-                <li>Landline</li>
-                <li>Broadband</li>
-                <li>Gas</li>
-                <li>Water</li>
-                <li>Metro</li>
-                <li>Google Play Recharge</li>
-                <hr>
-                <li>Accept Payments</li>
-                <li>Offers</li>
+            <ul class="list1">
+                <li><span></span><img src="icons/icon_prepaid_new.png"><a href="#">Mobile</a></li>
+                <li><span></span><img src="icons/icon_dth_new.png"><a href="#">DTH</a></li>
+                <li><span></span><img src="icons/icon_datacrd_new.png"><a href="#">DataCard</a></li>
+                <li><span></span><img src="icons/icon_landline_new.png" style="height: 20px;"><a href="#">Landline</a></li>
+                <li><span></span><img src="icons/icon_broadband.png"><a href="#">Broadband</a></li>
+                <li><span></span><img src="icons/icon_gas_new.png"><a href="#">Gas</a></li>
+                <li><span></span><img src="icons/icon_water_new.png"><a href="#">Water</a></li>
+                <li><span></span><img src="icons/icon_metro_new.png" style="height: 20px;"><a href="#">Metro</a></li>
+                <li><span></span><img src="icons/icon_google_play.png"><a href="#">Google Play Recharge</a></li>
+                <hr style="width: 100%;margin-left: -10px;">
+                <li style="width: 100%;"><span style="margin-left: -39px;padding-right: 10px;"></span><img src="icons/icon_merchant.png" style="height: 18px;"><a href="#">Accept Payments</a></li>
+                <li><span></span><img src="icons/icon_offers.png" style="height: 20px;"><a href="#">Offers</a></li>
             </ul>
         </div>
         
@@ -51,11 +55,11 @@
                     <h6 id="dc1-head">recharge your mobile</h6>
                     <p id="dc1-head2">Tell us your number and we will figure out the rest</p>
                     <form>
-                        <label></label>
-                        <input type="text" name="mobileNumber" maxlength="13" value="+91" style="letter-spacing: 2px;">
-                        <p>
-                            <input type="radio" value="Prepaid" checked>Prepaid&nbsp;&nbsp;<input type="radio" value="Postpaid">Postpaid
-                        </p>
+                        
+                        <span class="input-text">+91</span><input type="text" name="mobileNumber" maxlength="13" style="letter-spacing: 1px;"><br>
+                        
+                            <input type="radio" value="Prepaid" name="freecharge" checked>Prepaid &nbsp;&nbsp;
+                            <input type="radio" name="freecharge" value="Postpaid">Postpaid
                     </form>
                 </div>
                 <div id="dc1-image">
@@ -115,8 +119,8 @@
     <!-- Ending wrapper section for many links -->
     
     <div id="lastWrapper">
-        <div id="wrapper-lists">
-           <div class="wrapBlocks" style="margin-left: 170px;">
+        <div id="wrapper-lists" class="row">
+           <div class="wrapBlocks col">
             <ul>
                 <li class="list-head">MOBILE RECHARGE</li>
                 <li><a>airtel</a></li>
@@ -139,7 +143,7 @@
             </ul>
             </div>
             
-            <div class="wrapBlocks">
+            <div class="wrapBlocks col">
             <ul>
                 <li class="list-head">DATA CARD RECHARGE</li>
                 <li><a>tata photon</a></li>
@@ -156,7 +160,7 @@
             </ul>
             </div>
             
-            <div class="wrapBlocks">
+            <div class="wrapBlocks col">
             <ul>
                 <li class="list-head">DTH(TV) RECHARGE</li>
                 <li><a>airtel digitel TV</a></li>
@@ -168,7 +172,7 @@
             </ul>
             </div>
             
-            <div class="wrapBlocks">
+            <div class="wrapBlocks col">
             <ul>
                 <li class="list-head">POSTPAID</li>
                 <li><a>airtel bill payment</a></li>
@@ -185,7 +189,7 @@
             </ul>
             </div>
             
-            <div class="wrapBlocks">
+            <div class="wrapBlocks col">
             <ul>
                 <li class="list-head">FREECHARGE</li>
                 <li><a>about us</a></li>
@@ -200,8 +204,8 @@
             </ul>
             </div>
             
-            <div class="wrapBlocks">
-            <ul>
+            <div class="wrapBlocks col">
+            <ul id="mobile-list">
                 <li class="list-head">MOBILE</li>
                 <li><a>android app</a></li>
                 <li><a>windows</a></li>
@@ -210,20 +214,34 @@
             </ul>
             </div>
             
-            <div class="wrapBlocks">
-            <ul>
+            <div class="wrapBlocks col">
+            <ul class="image-list">
                 <li class="list-head">JOIN US</li>
-                <li><a><img src="images/icon_fb.png" id="facebook" alt="facebook profile"></a></li>
-                <li><a><img src="images/icon_gplus.png" id="google" alt="google play"></a></li>
-                <li><a><img src="images/icon_twitter.png" id="twitter
-                " alt="twitter"></a></li>
+                <li><a href="#"><img src="images/icon_fb.png" id="facebook" alt="facebook profile"></a></li>
+                <li><a href="#"><img src="images/icon_gplus.png" id="google" alt="google play"></a></li>
+                <li><a href="#"><img src="images/icon_twitter.png" id="twitter" alt="twitter"></a></li>
             </ul>
             </div>
             
         </div>
-        <div id="wrapper-bottom">
+        <div id="wrapper-bottom" class="row">
+            <div id="download" class="col-6">
+               <div class="row">
+                <div id="download-head" class="col-6">DOWNLOAD THE APP</div><div id="download-content" class="col-6"><span>|</span><img src="images/google-play.png"><img src="images/app-store-icon.png"><img src="images/windows-store-btn.png"></div>
+               </div>
+            </div>
+               
+               <div id="secured" class="col-6">
+                <div class="row">
+                <div id="security-head" class="col-6">SECURED</div><div id="security-content" class="col-6"><span>|</span><img src="images/visa.png"><img src="images/mastercrd.png"><img src="images/secure.png"><img src="images/geotrust.png"></div>
+                </div>
+            </div>
         </div>
     </div>
+    
+    <footer>
+        &copy;Freecharge Payment Technologies Pvt. Ltd. All Rights Reserved&nbsp;<span id="seperator">|</span>&nbsp;Freecharge Balance is issued by Axis Bank Limited
+    </footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
